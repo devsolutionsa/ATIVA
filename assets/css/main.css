@@ -68,6 +68,8 @@ body {
   font-family: var(--default-font);
 }
 
+
+
 a {
   color: var(--accent-color);
   text-decoration: none;
@@ -1125,6 +1127,16 @@ section,
   position: relative;
 }
 
+.slider{
+  margin-top: 20px;  
+}
+
+.slider{
+border-radius: 68px;
+background: #e0e0e0;
+box-shadow:  20px 20px 63px #8d8d8d,
+             -20px -20px 63px #ffffff;
+}
 .about .image-wrapper img {
   border-radius: 20px;
   box-shadow: 0 10px 40px color-mix(in srgb, var(--default-color), transparent 85%);
